@@ -1,4 +1,4 @@
-package Homework_5;
+package HomeWork_5;
 
 public class LogicOperations {
     public static void main(String[] args) {

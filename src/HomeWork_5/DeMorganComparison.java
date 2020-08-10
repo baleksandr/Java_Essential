@@ -1,4 +1,4 @@
-package Homework_5;
+package HomeWork_5;
 
 public class DeMorganComparison {
     //  Исходное выражение                           Эквивалентное выражение
