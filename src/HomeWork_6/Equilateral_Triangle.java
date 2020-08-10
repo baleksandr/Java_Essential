@@ -6,7 +6,7 @@ public class Equilateral_Triangle {
     public static void main(String[] args) {
         int i, space, width;
         Scanner sc = new Scanner(System.in);
-        System.out.println("Enter the no of lines");
+        System.out.println("Enter the width of Triangle");
         width = sc.nextInt();
 
         for (i = 1; i <= width; i++) {

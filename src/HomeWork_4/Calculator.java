@@ -10,7 +10,7 @@ public class Calculator {
         Scanner sc = new Scanner(System.in);
 
         System.out.println("Введите знак арифметической операции: ");
-        String sign = sc.next(); // Вводим число
+        String sign = sc.next(); // Вводим знак
 
         switch (sign) {
             case "+": {
