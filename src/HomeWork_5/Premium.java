@@ -27,7 +27,7 @@ public class Premium {
             System.out.println("Ваша выслуга до 5 лет и вы получите 10% премии.");
             System.out.println("Зарплата: " + salary + " + премия 10%" + " = " + (salary + premium));
         } else if (b <= years && years < c) {
-            premium = (salary * 0.15) / 100;
+            premium = salary * 0.15;
             System.out.println("Ваша выслуга от 5 до 10 лет и вы получите 15% премии.");
             System.out.println("Зарплата: " + salary + " + премия 15%" + " = " + (salary + premium));
         } else if (c <= years && years < d) {
