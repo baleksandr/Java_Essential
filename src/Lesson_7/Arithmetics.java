@@ -6,6 +6,7 @@ public class Arithmetics {
     static int add(int sum1, int sum2) {
         return sum1 + sum2;
     }
+
     static int sub(int sum1, int sum2) {
         return sum1 - sum2;
     }
@@ -13,8 +14,13 @@ public class Arithmetics {
         return sum1 * sum2;
     }
 
-    static double div(double sum1, double sum2) {
-        return sum1 / sum2;
+    static int div(int sum1, int sum2) {
+        if (sum2 != 0) {
+            return sum1 / sum2;
+        } else {
+            System.out.println("Деление на 0 запрещено!!!");
+        }
+        return 0;
     }
 
     public static void main(String[] args) {
@@ -44,16 +50,8 @@ public class Arithmetics {
                 break;
             }
             case "/": {
-                try {
-                    if (amount2 != 0) {
-                        double sum = div(amount1, amount2);
-                        System.out.println("Значение чисел = " + sum);
-                    } else {
-                        System.out.println("Деление на 0 запрещено!!!");
-                    }
-                } catch (ArithmeticException e) {
-                    System.out.println("Деление на 0 запрещено!?");
-                }
+                double sum = div(amount1, amount2);
+                System.out.println("Значение чисел = " + sum);
                 break;
             }
         }
