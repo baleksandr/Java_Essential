@@ -2,11 +2,10 @@ package Lesson_7;
 
 import java.util.Scanner;
 
-public class Arithmetics {
+public class Arithmetic {
     static int add(int sum1, int sum2) {
         return sum1 + sum2;
     }
-
     static int sub(int sum1, int sum2) {
         return sum1 - sum2;
     }
