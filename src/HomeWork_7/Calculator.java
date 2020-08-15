@@ -1,6 +1,4 @@
-package Lesson_7;
-
-import java.util.Scanner;
+package HomeWork_7;
 
 public class Calculator {
     public static int add (int a, int b, int c) {
