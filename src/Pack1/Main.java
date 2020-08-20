@@ -2,11 +2,13 @@ package Pack1;
 
 public class Main {
     public static void main(String[] args) {
-        Address address = new Address(19101, "Ukraine", "Kyev", "Hreshtik", 4, 3);
+        Address address = new Address("Ukraine", "Kyev", "Hreshtik");
+        address.setIndex(18992);
+        address.setHouse(4);
+        address.setApartment(4);
 
-
-        System.out.println("Index" + address.getIndex() + "Country" + address.getCountry() + "City" + address.getCity() + "Street" + address.getStreet() +
-                "House " + address.getHouse() + "Apartment " + address.getApartment());
+        System.out.println("Index: " + address.getIndex() + "\nCountry: " + address.getCountry() + "\nCity: " + address.getCity() + "\nStreet: " + address.getStreet() +
+                "\nHouse: " + address.getHouse() + "\nApartment: " + address.getApartment());
 
     }
 }

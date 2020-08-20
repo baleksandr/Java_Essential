@@ -2,20 +2,17 @@ package Pack1;
 
 public class Address {
     private int index;
+    private int house;
+    private int apartment;
     private String country;
     private String city;
     private String street;
-    private int house;
-    private int apartment;
 
 
-    public Address (int index, String country, String city, String street, int house, int apartment) {
-        this.index = index;
+    public Address ( String country, String city, String street) {
         this.country = country;
         this.city = city;
         this.street = street;
-        this.house = house;
-        this.apartment = apartment;
     }
 
     public int getIndex() {
