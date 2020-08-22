@@ -10,8 +10,6 @@ public class Book {
         author.setAuthor("Герберт Шилдт");
         content.setContent("Девятое издание");
 
-
-
         title.show();
         author.show();
         content.show();
