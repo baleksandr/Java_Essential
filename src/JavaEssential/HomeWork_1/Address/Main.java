@@ -9,6 +9,5 @@ public class Main {
 
         System.out.println("Index: " + address.getIndex() + "\nCountry: " + address.getCountry() + "\nCity: " + address.getCity() + "\nStreet: " + address.getStreet() +
                 "\nHouse: " + address.getHouse() + "\nApartment: " + address.getApartment());
-
     }
 }
