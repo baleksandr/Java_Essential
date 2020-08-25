@@ -1,4 +1,4 @@
-package JavaEssential.HomeWork_1.Computer;
+package JE_HW_1.Computer;
 
 public class Computer {
     private String  memory;

@@ -1,4 +1,4 @@
-package JavaEssential.HomeWork_1.Rectangle;
+package JE_HW_1.Rectangle;
 
 public class Rectangle {
     private double side1;

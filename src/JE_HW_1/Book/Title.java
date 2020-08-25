@@ -1,4 +1,4 @@
-package JavaEssential.HomeWork_1.Book;
+package JE_HW_1.Book;
 
 public class Title {
     String title;

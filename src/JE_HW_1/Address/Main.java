@@ -1,4 +1,4 @@
-package JavaEssential.HomeWork_1.Address;
+package JE_HW_1.Address;
 
 public class Main {
     public static void main(String[] args) {
