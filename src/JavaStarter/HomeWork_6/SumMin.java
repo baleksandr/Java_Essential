@@ -12,3 +12,4 @@ public class SumMin {
         System.out.println("Сумма чисел между min " + min + " и " + max + " = " + sum);
     }
 }
+

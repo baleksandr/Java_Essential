@@ -12,7 +12,6 @@ public class ImageRenderer_DONT_TOUCH_THIS_FILE extends DefaultTableCellRenderer
     public Component getTableCellRendererComponent(JTable table, Object value, boolean isSelected,
                                                    boolean hasFocus, int row, int column) {
 
-
         lbl.setText(null);
 
         if (value.equals("B")) {
@@ -32,5 +31,4 @@ public class ImageRenderer_DONT_TOUCH_THIS_FILE extends DefaultTableCellRenderer
 
         return lbl;
     }
-
 }

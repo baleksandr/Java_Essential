@@ -29,3 +29,4 @@ public class Parity {
         System.out.println("Число " + number + (b ? " четное." : " нечетное."));
     }
 }
+
