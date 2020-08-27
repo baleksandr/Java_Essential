@@ -1,4 +1,4 @@
-package JE_HW_2.AdditionalExersise;
+package je_HW_2.AdditionalExersise;
 
 public class Main {
     public static void main(String[] args) {

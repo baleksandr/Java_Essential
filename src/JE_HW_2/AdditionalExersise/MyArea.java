@@ -1,4 +1,4 @@
-package JE_HW_2.AdditionalExersise;
+package je_HW_2.AdditionalExersise;
 
 public class MyArea {
    private static final double PI = 3.14;

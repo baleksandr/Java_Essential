@@ -1,4 +1,4 @@
-package JE_HW_2.Exersise_4;
+package je_HW_2.Exersise_4;
 
 public class Car {
     public int year;
