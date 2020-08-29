@@ -1,4 +1,4 @@
-package je_HW_5.Animal.Exersise_2;
+package je_HW_5.Exersise_2;
 
 public class Monitor extends Devise {
     int resolutionX;
